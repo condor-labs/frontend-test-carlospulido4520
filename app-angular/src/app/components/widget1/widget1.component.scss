@@ -1,0 +1,94 @@
+.background {
+    width: 100%;
+    height: 100%;
+
+    // Borde redondeado
+    border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    border: 0px solid #000000;
+}
+
+.containner {
+
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, #000000ba, transparent);
+    border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+
+}
+
+.information {
+    width: 80%;
+    height: 100%;
+}
+
+.location {
+    height: 30%;
+    padding-top: 5rem;
+}
+
+.button {
+    background-color: #5A00EA;
+    width: 120px;
+    height: 30px;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+    color : white;
+    font-family: Lato;
+    padding: 5px 5px 0 5px;
+    margin-left: 3rem;
+}
+
+.temperature {
+    height: 50%;
+    margin-left: 3rem;
+
+}
+
+.temperature p {
+    font-size: 50px;
+    color: white;
+    font-family: Lato;
+    margin: 0px;
+}
+
+.footer {
+  margin-top: 10px;
+  display: flex;
+}
+
+.footer span {
+  font-family: Lato;
+  color: white;
+}
+
+.fa-circle {
+  font-size: 10px;
+}
+
+.circle-left i {
+  color: #D95ECB;
+}
+
+.circle-left {
+  margin-right: 15px;
+}
+
+.fa-circle {
+  color: #5A00EA;
+}
+
+.iconSun {
+    width: 20%;
+    height: 100%;
+}
+
+.widget-icon {
+    color: #FFB82C;
+    font-size: 100px;
+    margin-top: -10px;
+}

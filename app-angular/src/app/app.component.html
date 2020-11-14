@@ -1,0 +1,31 @@
+<app-navbar></app-navbar>
+
+
+<div class="body">
+  <div class="containner">
+    <div class="sizeWidget1">
+      <app-widget1 id="widget-header" [mainPlace]="mainPlace"></app-widget1>
+    </div>
+
+    <div class="subContainner">
+      <div class="sizeWidget4">
+        <p class="textWidget4">headquarter suggested</p>
+        <app-widget4 id="widget-suggest" [mainPlace]="mainPlace" [bestDay]="bestDay"></app-widget4>
+      </div>
+
+      <div class="sizeWidget2">
+        <app-widget2 id="widget-carousel" [days]="days"></app-widget2>
+      </div>
+    </div>
+  </div>
+
+  <div class="containner2">
+    <div class="sizeWidget3">
+      <app-widget3 id="widget-favorite" [otherPlaces]="otherPlaces"></app-widget3>
+    </div>
+
+    <div class="sizeWidget5">
+      <app-widget5 id="widget-cities" [placesToVisit]="placesToVisit"></app-widget5>
+    </div>
+  </div>
+</div>

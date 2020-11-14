@@ -1,0 +1,30 @@
+<div class="background">
+
+  <div class="containner">
+    <div class="information">
+      <div class="location">
+        <div class="button">
+          <i class="fas fa-map-marker-alt"></i> <span class="widget-headquarter"> {{mainPlace.name | uppercase}}</span>
+        </div>
+      </div>
+      <div class="temperature">
+        <p class="widget-temperature">{{bestDay.main.temp | temperatureFormatter}}° C</p>
+        <div class="footer">
+          <div class="circle-left">
+            <i class="fas fa-circle"></i> <span class="widget-humidity">{{bestDay.main.humidity}} %</span>
+          </div>
+          <div>
+            <i class="fas fa-circle"></i> <span class="widget-wind"> {{bestDay.wind.speed}} m/s</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="iconSun">
+      <i class=" widget-icon wi wi-day-sunny" [ngClass]="'wi wi-' + bestDay.weather[0].icon"></i>
+      <div class="nameDay widget-day">
+        {{bestDay.date | nameOfDay}}
+      </div>
+    </div>
+  </div>
+
+</div>

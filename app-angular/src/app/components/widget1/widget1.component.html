@@ -1,0 +1,29 @@
+<div class="background" [ngStyle]="{ background: 'url(' + mainPlace.image + ')'}">
+  <div class="containner">
+    <div class="information">
+      <div class="location">
+        <div class="button">
+          <i class="fas fa-map-marker-alt widget-headquarte"></i> {{mainPlace.name | uppercase}}
+        </div>
+      </div>
+      <div class="temperature">
+        <p class="widget-temperature">{{mainPlace.main.temp | temperatureFormatter}}° C</p>
+
+        <div class="footer">
+          <div class="circle-left">
+            <i class="fas fa-circle"></i> <span class="widget-humidity">{{mainPlace.main.humidity}} %</span>
+          </div>
+          <div>
+            <i class="fas fa-circle"></i> <span class="widget-wind"> {{mainPlace.wind.speed}} m/s</span>
+          </div>
+        </div>
+
+        <p>Good moorning,</p>
+        <p>Condor</p>
+      </div>
+    </div>
+    <div class="iconSun">
+      <i class="widget-icon" [ngClass]="'wi wi-' + mainPlace.weather[0].icon"></i>
+    </div>
+  </div>
+</div>

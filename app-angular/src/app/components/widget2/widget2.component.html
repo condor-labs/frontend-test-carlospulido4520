@@ -1,0 +1,32 @@
+<div class="background">
+    <div class="header">
+        <div class="text">
+            <P>FORECAST EXTENDED</P>
+        </div>
+        <div class="buttons">
+            <i class="far fa-arrow-alt-circle-left" (click)="left()" *ngIf="aumentedPixels === -450"></i>
+            <i class="far fa-arrow-alt-circle-right" (click)="right()"*ngIf="aumentedPixels === 0"></i>
+        </div>
+    </div>
+
+    <div class="body">
+
+    <div class="showContain">
+      <div class="contain" [ngStyle]="{ width:  days.length * 160 + 'px', left : aumentedPixels + 'px'  }" >
+
+        <div class="card widget-carousel-item" *ngFor="let item of days" >
+            <p class="day">{{item.date | nameOfDay}}</p>
+            <p class="temperature widget-temperature">{{item.main.temp | temperatureFormatter}}° C</p>
+            <div class="footer">
+                <div class="circle-left">
+                    <i class="fas fa-circle"></i> <span class="widget-humidity"> {{item.main.humidity}} %</span>
+                </div>
+                <div>
+                    <i class="fas fa-circle"></i> <span class="widget-wind"> {{item.wind.speed}}m/s</span>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    </div>
+</div>

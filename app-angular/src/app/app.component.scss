@@ -1,0 +1,79 @@
+.textWidget4 {
+  font-size: 25px;
+  font-family: Lato;
+  margin: 0px 0px 10px 5px;
+}
+
+@media screen and (min-width: 1024px) {
+  .containner {
+    margin-top: 1rem;
+    display: flex;
+  }
+
+  .sizeWidget1 {
+    width: 60vw;
+    height: 70vh;
+  }
+
+  .sizeWidget2 {
+    margin: 3.5rem 0px 0px 0px;
+  }
+
+  .subContainner {
+    margin-left: 0.5rem;
+    width: 40vw;
+
+  }
+  .sizeWidget4 {
+    width: 30vw;
+    height: 30vh;
+  }
+
+  .containner2 {
+    margin-top: 0.5rem ;
+    width: 90vw;
+    height: 50vh;
+    display: flex;
+  }
+
+  .sizeWidget3 {
+    width: 50vw;
+    height: 50vh;
+  }
+
+  .sizeWidget5 {
+    margin-left: 0.5rem;
+    width: 50vw;
+    height: 50vh;
+    // background-color: red;
+  }
+}
+
+
+
+@media screen and (max-width: 1024px) {
+  .containner {
+    margin-top: 1rem;
+  }
+  .sizeWidget1 {
+    width: 95vw;
+    height: 70vh;
+  }
+
+  .subContainner {
+    margin: 0.5rem 0px 0px 0.5rem;
+    width: 95vw;
+    display: flex;
+  }
+
+  .sizeWidget4 {
+    width: 95vw;
+    height: 30vh;
+  }
+
+  .sizeWidget2 {
+    margin: 0px 0px 0px 0.5rem;
+    width: 50vw;
+    height: 35vh;
+  }
+}

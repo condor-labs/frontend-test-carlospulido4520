@@ -1,0 +1,109 @@
+.background {
+    width: 100%;
+    height: 100%;
+
+    background: white;
+
+    // Borde redondeado
+    border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    border: 0px solid #000000;
+}
+
+.header {
+    display: flex;
+    padding-top: 10px;
+}
+
+.text {
+    width: 85%;
+    height: 10%;
+}
+
+.buttons {
+    width: 20%;
+    height: 10%;
+    font-size: 30px;
+    color: #5a00ea;
+}
+
+.fa-arrow-alt-circle-right {
+    margin-left: 20px;
+}
+
+.far:hover {
+    color: #FFB82C;
+    cursor: pointer;
+}
+
+.text p {
+    margin: 0px 0px 0px 1rem;
+    font-family: Lato;
+    color: #5A00EA;
+}
+
+.showContain {
+  width: 470px;
+  overflow: hidden;
+  height: 150px;
+  position: relative;
+
+}
+
+.contain {
+  position: absolute;
+  left: 0;
+  transition: all 0.5s;
+}
+
+.body {
+    margin: 0px 0px 0px 1rem;
+    display: flex;
+}
+
+.card {
+    margin-left: 5px;
+    width: 150px;
+    height: 150px;
+    border-right: 1px solid #e6e6e6;
+    display: inline-block;
+}
+
+.day {
+    margin: 2rem 0px 0px 0px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.temperature {
+    text-align: center;
+    font-size: 30px;
+    font-family: Lato;
+    margin: 10px 0px 0px 0px ;
+}
+
+.footer {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer span {
+    font-family: Lato;
+}
+
+.fa-circle {
+    font-size: 10px;
+}
+
+.circle-left i {
+    color: #D95ECB;
+}
+
+.circle-left {
+    margin-right: 15px;
+}
+
+.fa-circle {
+    color: #5A00EA;
+}
