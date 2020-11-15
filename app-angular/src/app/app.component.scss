@@ -2,6 +2,21 @@
   font-size: 25px;
   font-family: Lato;
   margin: 0px 0px 10px 5px;
+  color: #5A00EA;
+}
+
+.textWidget3 {
+  font-size: 25px;
+  font-family: Lato;
+  margin: 2px 0px 10px 5px;
+  color: #5A00EA;
+}
+
+.textWidget5 {
+  font-size: 25px;
+  font-family: Lato;
+  margin: 2px 0px 10px 40px;
+  color: #5A00EA;
 }
 
 @media screen and (min-width: 1024px) {
@@ -22,7 +37,6 @@
   .subContainner {
     margin-left: 0.5rem;
     width: 40vw;
-
   }
   .sizeWidget4 {
     width: 30vw;
@@ -30,7 +44,7 @@
   }
 
   .containner2 {
-    margin-top: 0.5rem ;
+    margin-top: 0.5rem;
     width: 90vw;
     height: 50vh;
     display: flex;
@@ -48,8 +62,6 @@
     // background-color: red;
   }
 }
-
-
 
 @media screen and (max-width: 1024px) {
   .containner {
@@ -72,8 +84,24 @@
   }
 
   .sizeWidget2 {
-    margin: 0px 0px 0px 0.5rem;
+    margin: 15px 0px 0px 0.5rem;
     width: 50vw;
     height: 35vh;
+  }
+
+  .textWidget3 {
+    font-size: 25px;
+    font-family: Lato;
+    margin: 25px 0px 10px 5px;
+  }
+
+  .sizeWidget5 {
+    margin-top: 20px;
+  }
+
+  .sizeWidget3 {
+    width: 80vw;
+    height: 50vh;
+    margin-left: 5rem;
   }
 }

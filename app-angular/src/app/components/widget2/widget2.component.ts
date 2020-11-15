@@ -18,11 +18,11 @@ export class Widget2Component implements OnInit {
   }
 
   left() {
-    this.aumentedPixels = this.aumentedPixels + 450;
+    this.aumentedPixels = this.aumentedPixels + 470;
   }
 
   right() {
-    this.aumentedPixels = this.aumentedPixels - 450;
+    this.aumentedPixels = this.aumentedPixels - 470;
   }
 
 }
